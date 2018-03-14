@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*水色*/
+/*空色*/
+/*ピンク色*/
+/*黒色*/
+/* BASE
+---------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #000;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #d4ecf0; }
+
+a {
+  color: #2280b3;
+  text-decoration: none; }
+  a:visited {
+    color: #1a6188; }
+  a:hover {
+    color: #1a6188; }
+  a:active {
+    color: #268fc8; }
+
+.center, .wedding .info, .link, .link .btn, .foot {
+  text-align: center; }
+
+/*---------------------------------------------------------------*/
+/* HEAD
+---------------------------------------------------------------*/
+.head {
+  background-image: url("../images/header.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+/*---------------------------------------------------------------*/
+/* MAIN
+---------------------------------------------------------------*/
+.wedding {
+  margin: 0 30px;
+  padding: 0; }
+  .wedding h1 {
+    font-size: 3rem;
+    margin: 20px 0; }
+  .wedding .container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column; }
+    .wedding .container .box {
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+      background-color: #fff; }
+      .wedding .container .box h2 {
+        display: block;
+        font-size: 2rem;
+        padding: 10px; }
+      .wedding .container .box img {
+        width: 100%;
+        height: auto; }
+      .wedding .container .box p {
+        padding: 10px; }
+
+.link {
+  margin: 30px; }
+  .link .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: #e8b5bf;
+    border-radius: 5px; }
+
+/*---------------------------------------------------------------*/
+/* FOOT
+---------------------------------------------------------------*/
+.foot {
+  background-color: #2280b3;
+  padding: 10px 0;
+  color: #fff; }
+
+/*---------------------------------------------------------------*/
+/* PC
+---------------------------------------------------------------*/
+@media (min-width: 796px) {
+  .head {
+    background-image: url("../images/header.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center; }
+
+  .wedding {
+    width: 90%;
+    margin: 10px auto; }
+    .wedding .wrapper {
+      width: 100%;
+      display: flex; }
+      .wedding .wrapper .i {
+        width: 30%;
+        height: auto;
+        margin-right: 30px; }
+      .wedding .wrapper .info {
+        width: 70%;
+        margin: auto; }
+      .wedding .wrapper h1 {
+        font-size: 3rem;
+        margin-bottom: 20px; }
+    .wedding .container {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin: 20px 0; }
+      .wedding .container .box {
+        margin: 10px;
+        width: 33.33333%;
+        height: auto;
+        background-color: #fff; }
+        .wedding .container .box h2 {
+          font-size: 2rem; }
+        .wedding .container .box img {
+          width: 100%;
+          height: auto; } }
+
+/*# sourceMappingURL=style.css.map */
